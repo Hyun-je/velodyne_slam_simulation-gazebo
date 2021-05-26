@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     ros-melodic-cartographer \
     ros-melodic-cartographer-ros \
     ros-melodic-octomap \
-    ros-melodic-octomap-server \
+    ros-melodic-octomap-server
 
 # Setup ROS environment
 RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc && \
